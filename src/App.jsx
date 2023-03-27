@@ -10,6 +10,7 @@ import CardContainer from './components/CardContainer'
 import PopularCardContainer from './components/PopularCardContainer'
 import Partnership from './components/Partnership'
 import Feedback from './components/Feedback'
+import AboutUs from './components/AboutUs'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <PopularCardContainer/>
       <Partnership/>
       <Feedback/>
+      <AboutUs/>
     </>
   )
 }
