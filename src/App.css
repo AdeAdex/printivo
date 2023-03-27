@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px 40px;
+}
+
+.nav {
+  background-color: #ECE8D9;
+  font-size: 14px;
+}
+
+.nav1 {
+  background-color: #F7F6F4;
+  height: 60px;
+  color: #506683;
+  font-weight: bold;
+}
+
+.nav1-link a {
+  text-decoration: none;
+  color: #506683;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.nav-contact a {
+  color: #1DA6F2;
+  text-decoration: none;
+}
+
+.fa-whatsapp  {
+  font-size: 35px;
+  padding: 0px 0px 0px 0px;
+  width: 30px;
+  height: 30px;
+  background-color: #51CD5F;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.country {
+  width: auto;
+  padding: 8px 10px;
+  border: 1px solid gray;
+  background-color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.dropdown, .account  {
+  gap: 20px;
+  color: #506683;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #506683;
+}
+
+.search {
+  /* background-image: ; */
+}
+
+.search:focus {
+  outline: none;
+}
+
+.nav .card-img {
+  object-fit: cover;
+  float: right;
+  bottom: -60px;
+  right: -100px;
+  position: absolute;
+  /* margin-right: -100px; */
+}
+
+.card-img-top {
+  height: 230px;
+  cursor: pointer;
+}
+
+.card-img-top:hover {
+  transition: transform .2s;
+    /* transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: transform; */
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #384A7A;
+}
+
+.card-text {
+  color: #708095;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #384A62;
+  margin-top: -8px;
+}
+
+.card-percent {
+  font-size: 14px;
+  font-weight: bold;
+  color: #7080AF;
+}
+
+.card-btn {
+  background-color: #D77F81 !important;
+  color: whitesmoke !important;
+  text-transform: capitalize;
+  height: 40px;
+  width: auto;
+}
+
+.card-btn-text {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
