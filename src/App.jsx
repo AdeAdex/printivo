@@ -11,6 +11,7 @@ import PopularCardContainer from './components/PopularCardContainer'
 import Partnership from './components/Partnership'
 import Feedback from './components/Feedback'
 import AboutUs from './components/AboutUs'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Partnership/>
       <Feedback/>
       <AboutUs/>
+      <Footer/>
     </>
   )
 }

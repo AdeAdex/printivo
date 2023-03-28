@@ -236,6 +236,7 @@ body {
 
 .product-sect .pop-prod-2 {
   font-size: 14px !important;
+  font-family: Lato,sans-serif;
 }
 
 .card {
@@ -276,5 +277,17 @@ body {
 }
 
 
+
+
+
+
+.notice {
+  flex-direction: column;
+  gap: 40px;
+}
+
+.notice .notice-div {
+  width: 100%;
+}
 
 }
