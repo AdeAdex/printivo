@@ -55,7 +55,7 @@ body {
   border-bottom-left-radius: 30px;
 }
 
-.dropdown, .account  {
+.dropdowns, .account  {
   gap: 20px;
   color: #506683;
 }
@@ -67,7 +67,7 @@ body {
   color: #506683;
 }
 
-.nav-caro .menu-btn {
+.dropdown .menu-btn {
   display: none !important;
 }
 
@@ -194,7 +194,7 @@ body {
     /* display: none !important; */
   }
 
- .nav .dropdown, .nav .create-acc {
+ .nav .dropdowns, .nav .create-acc {
     display: none !important;
   }
 
@@ -211,7 +211,7 @@ body {
     justify-content: end;
   }
 
-  .nav-caro .menu-btn {
+  .dropdown .menu-btn {
     display: flex !important;
   }
 

@@ -1,6 +1,6 @@
 import React from "react";
-import logo from '../assets/printivo.png'
-import logoCard from '../assets/Card.png';
+import logo from "../assets/printivo.png";
+import logoCard from "../assets/Card.png";
 
 const NavCompo = () => {
   return (
@@ -43,42 +43,103 @@ const NavCompo = () => {
             </div>
           </div>
         </div>
-        <div className="nav-caro d-flex flex-column w-100" style={{padding: '0px 100px 60px 100px'}}>
+        <div
+          className="nav-caro d-flex flex-column w-100"
+          style={{ padding: "0px 100px 60px 100px" }}
+        >
           <div
             className="img-signin d-flex w-100 justify-content-evenly"
-            style={{ marginTop: "20px", height: '70px'}}
+            style={{ marginTop: "20px", height: "70px" }}
           >
             <div className="img-container my-auto" style={{ width: "45%" }}>
-              <img
-                src={logo}
-                alt=""
-                style={{ width: "150px"}}
-              />
+              <img src={logo} alt="" style={{ width: "150px" }} />
             </div>
             <div className="menu d-flex gap-5" style={{ width: "60%" }}>
-              <div className="dropdown d-flex my-auto">
+              <div className="dropdowns d-flex my-auto">
                 <a href="">Home</a>
                 <a href="">All Products</a>
                 <a href="">Become a Reseller</a>
                 <a href="">Cost Calculator</a>
               </div>
               <div className="account d-flex my-auto">
-                <a href="" style={{color: '#D87F81'}}>Sign in</a>
-                <a href="" className="create-acc">Create Account</a>
+                <a href="" style={{ color: "#D87F81" }}>
+                  Sign in
+                </a>
+                <a href="" className="create-acc">
+                  Create Account
+                </a>
                 <i className="fas fa-cart-shopping fs-5"></i>
               </div>
             </div>
           </div>
-          <button className="menu-btn btn d-flex py-2 justify-content-center mt-3" style={{width: '80px', backgroundColor: 'white'}}>Menu</button>
-          <div className="q-print-con w-100 d-flex gap-5 position-relative" style={{color: '#384A62', marginTop: '60px'}}>
+
+
+          <div className="dropdown">
+            <button
+            className="menu-btn btn d-flex py-2 justify-content-center mt-3" data-bs-toggle="dropdown"
+              aria-expanded="false"
+            style={{ width: "80px", backgroundColor: "white" }}
+          >
+            Menu
+          </button>
+            <ul className="dropdown-menu">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Action
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Another action
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div
+            className="q-print-con w-100 d-flex gap-5 position-relative"
+            style={{ color: "#384A62", marginTop: "60px" }}
+          >
             <div className="q-print w-50">
-                <div className=" text-capitalize fw-bold" style={{fontSize: '4.2rem', fontFamily: '"dm serif display",serif'}}>quality prints</div>
-                <p className="ship fw-bold" style={{fontSize: '25px', color: '#708095'}}>Shipped to your doorstep</p>
-                <p className="mt-4 fw-bold" style={{fontSize: '16px'}}>What would you like to print today?</p>
-                <input type="text" name="" id="" placeholder="Search for Business cards, T-shirts, Mugs, etc" className="search w-100" style={{padding: '30px', border: 'none', fontSize: '14px'}}/>
+              <div
+                className=" text-capitalize fw-bold"
+                style={{
+                  fontSize: "4.2rem",
+                  fontFamily: '"dm serif display",serif',
+                }}
+              >
+                quality prints
+              </div>
+              <p
+                className="ship fw-bold"
+                style={{ fontSize: "25px", color: "#708095" }}
+              >
+                Shipped to your doorstep
+              </p>
+              <p className="mt-4 fw-bold" style={{ fontSize: "16px" }}>
+                What would you like to print today?
+              </p>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Search for Business cards, T-shirts, Mugs, etc"
+                className="search w-100"
+                style={{ padding: "30px", border: "none", fontSize: "14px" }}
+              />
             </div>
             <div className="nav-card-container w-50">
-              <img className="card-img" src={logoCard} alt="" style={{width: '450px', height: '300px'}} />
+              <img
+                className="card-img"
+                src={logoCard}
+                alt=""
+                style={{ width: "450px", height: "300px" }}
+              />
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <div className="card-percent">per 100</div></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -38,7 +38,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -47,7 +47,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -56,7 +56,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -65,7 +65,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -74,7 +74,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -83,7 +83,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -92,7 +92,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -101,7 +101,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -110,7 +110,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -119,7 +119,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
@@ -128,7 +128,7 @@ function CardContainer() {
             <div className="card-body">
               <h5 className="card-title">Two-sided Business Cards</h5>
               <p className="card-text">starting at</p>
-              <p className="card-price">₦8,855 <text className="card-percent">per 100</text></p>
+              <p className="card-price">₦8,855 <span className="card-percent">per 100</span></p>
               <button className="card-btn btn btn-sm px-3 d-flex justify-content-between"><span className="card-btn-text my-auto">browse Two-sided Business Cards </span><i className="fas fa-angle-right my-auto"></i></button>
             </div>
           </div>
