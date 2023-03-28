@@ -142,3 +142,139 @@ body {
 .about-icon {
   font-size: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0px !important;
+  }
+  .nav1 .nav1-link, .nav-contact span, .nav-card-container {
+    display: none !important;
+  }
+
+  .nav1 .nav-contact-container {
+    width: 100% !important;
+    padding: 0px 20px !important;
+    /* display: none !important; */
+  }
+
+ .nav .dropdown, .nav .create-acc {
+    display: none !important;
+  }
+
+  .nav-caro {
+    padding: 0px 20px 30px 20px !important;
+  }
+
+  .nav-caro .img-container{
+    width: 50% !important;
+  }
+
+  .nav-caro .menu {
+    width: 50% !important;
+    justify-content: end;
+  }
+
+  .nav-caro .img-signin {
+    justify-content: space-between !important;
+  }
+
+  .menu .account {
+    gap: 40px !important;
+  }
+
+  .menu .account a:first-child {
+    font-size: 12px !important;
+  }
+
+ .nav .q-print {
+    width: 100% !important;
+  }
+
+  .q-print div:first-child {
+    font-size: 2.3rem !important;
+  }
+
+  .q-print .ship {
+    font-size: 20px !important;
+  }
+
+  .nav-contact a {
+    font-size: 12px !important;
+  }
+  .search {
+    padding: 20px !important;
+  }
+
+
+
+
+
+.product-sect {
+  width: 100% !important;
+  padding: 0px 20px;
+}
+
+.product-sect .pop-prod {
+  font-size: 20px !important;
+}
+
+.product-sect .pop-prod-2 {
+  font-size: 14px !important;
+}
+
+.card {
+  width: 100% !important;
+}
+.product-sect .partner {
+  width: 100% !important;
+}
+
+.partner-img img {
+  width: 100%;
+}
+
+
+
+
+
+
+.each-feed-container {
+  flex-direction: column;
+}
+
+
+.feedback, .about-us {
+  padding: 60px 20px !important;
+}
+
+.about-div {
+  flex-direction: column;
+}
+.each-feed-container div {
+  width: 100% !important;
+}
+
+.each-about {
+  width: 100% !important;
+  flex-direction: column;
+}
+
+
+
+}

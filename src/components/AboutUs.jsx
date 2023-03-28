@@ -4,6 +4,7 @@ const AboutUs = () => {
   return (
     <>
       <section
+      className="about-us"
         style={{
           padding: "40px 110px",
           backgroundColor: "#fff",
@@ -11,9 +12,9 @@ const AboutUs = () => {
         }}
       >
         <h3 className="fw-bold" style={{ color: "#384A62" }}>You can count on us for:</h3>
-        <div style={{ color: "#384A62" }} className="d-flex w-100 gap-4 mt-4">
+        <div style={{ color: "#384A62" }} className="about-div d-flex w-100 gap-4 mt-4">
           <div
-            className="bg-white container-fluid py-3 d-flex gap-3"
+            className="each-about bg-white container-fluid py-3 d-flex gap-3"
             style={{ height: "160px", width: "25%" }}
           >
             <i className="about-icon fas fa-clock"></i>
@@ -24,7 +25,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div
-            className="bg-white container-fluid py-3 d-flex gap-3"
+            className="each-about bg-white container-fluid py-3 d-flex gap-3"
             style={{ height: "160px", width: "25%" }}
           >
             <i className="about-icon fas fa-clock"></i>
@@ -34,7 +35,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div
-            className="bg-white container-fluid py-3 d-flex gap-3"
+            className="each-about bg-white container-fluid py-3 d-flex gap-3"
             style={{ height: "160px", width: "25%" }}
           >
             <i className="about-icon fas fa-clock"></i>

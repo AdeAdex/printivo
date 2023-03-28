@@ -22,7 +22,7 @@ const NavCompo = () => {
             </a>
           </div>
           <div
-            className="d-flex my-auto justify-content-between"
+            className="nav-contact-container d-flex my-auto justify-content-between"
             style={{ width: "40%" }}
           >
             <div className="nav-contact d-flex my-auto">
@@ -43,12 +43,12 @@ const NavCompo = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex flex-column w-100" style={{padding: '0px 100px 60px 100px'}}>
+        <div className="nav-caro d-flex flex-column w-100" style={{padding: '0px 100px 60px 100px'}}>
           <div
-            className="d-flex w-100 justify-content-evenly"
+            className="img-signin d-flex w-100 justify-content-evenly"
             style={{ marginTop: "20px", height: '70px'}}
           >
-            <div className="my-auto" style={{ width: "45%" }}>
+            <div className="img-container my-auto" style={{ width: "45%" }}>
               <img
                 src={logo}
                 alt=""
@@ -64,19 +64,19 @@ const NavCompo = () => {
               </div>
               <div className="account d-flex my-auto">
                 <a href="" style={{color: '#D87F81'}}>Sign in</a>
-                <a href="">Create Account</a>
+                <a href="" className="create-acc">Create Account</a>
                 <i className="fas fa-cart-shopping fs-5"></i>
               </div>
             </div>
           </div>
           <div className="w-100 d-flex gap-5 position-relative" style={{color: '#384A62', marginTop: '60px'}}>
-            <div className="w-50">
-                <div className="text-capitalize fw-bold" style={{fontSize: '4.2rem', fontFamily: '"dm serif display",serif'}}>quality prints</div>
-                <p className="fw-bold" style={{fontSize: '25px', color: '#708095'}}>Shipped to your doorstep</p>
+            <div className="q-print w-50">
+                <div className=" text-capitalize fw-bold" style={{fontSize: '4.2rem', fontFamily: '"dm serif display",serif'}}>quality prints</div>
+                <p className="ship fw-bold" style={{fontSize: '25px', color: '#708095'}}>Shipped to your doorstep</p>
                 <p className="mt-4 fw-bold" style={{fontSize: '16px'}}>What would you like to print today?</p>
-                <input type="text" name="" id="" className="search w-100" style={{padding: '30px', border: 'none', fontSize: '14px'}}/>
+                <input type="text" name="" id="" placeholder="Search for Business cards, T-shirts, Mugs, etc" className="search w-100" style={{padding: '30px', border: 'none', fontSize: '14px'}}/>
             </div>
-            <div className="w-50">
+            <div className="nav-card-container w-50">
               <img className="card-img" src={logoCard} alt="" style={{width: '450px', height: '300px'}} />
             </div>
           </div>
