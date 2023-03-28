@@ -198,6 +198,32 @@ body {
     display: none !important;
   }
 
+  .nav-caro .dropdown-item {
+    font-weight: bold;
+    margin: 10px 0px;
+    font-size: 20px !important;
+    color: #384F66;
+  }
+
+  .dropdown-menu li {
+    display: flex;
+    width: 86%;
+  }
+
+  li .fa-angle-right {
+    font-size: 20px;
+  }
+
+  .dropdown-menu {
+    position: fixed !important;
+    width: 110% !important;
+    height: 100vh;
+    top: -208px !important;
+    left: 0px !important;
+    right: 0px !important;
+    overflow-y: auto;
+  }
+
   .nav-caro {
     padding: 0px 20px 30px 20px !important;
   }
