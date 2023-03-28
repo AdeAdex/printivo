@@ -4,7 +4,7 @@ const FooterContent = () => {
   return (
     <>
       <section
-        className="feedback d-flex justify-content-between"
+        className="feedback foot d-flex justify-content-between"
         style={{
           padding: "60px 250px 100px 110px",
           backgroundColor: "#384A62",
@@ -36,11 +36,23 @@ const FooterContent = () => {
         </div>
         <div className="footer-a d-flex flex-column gap-2">
           <div>Follow Us</div>
-          <div className="d-flex justify-content-between w-100 px-3">
+          <div className="social-media d-flex justify-content-between w-100 px-3">
             <i className="fab fa-facebook-f"></i>
             <i className="fab fa-twitter"></i>
             <i className="fab fa-linkedin"></i>
             <i className="fab fa-instagram"></i>
+          </div>
+          <div>Accepted Payments</div>
+          <div className="d-flex">
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+                <img src="" alt="" />
+          </div>
+          <div>Delivery</div>
+          <div>
+                <img src="" alt="" />
+                <img src="" alt="" />
           </div>
         </div>
       </section>

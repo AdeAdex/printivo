@@ -69,7 +69,8 @@ const NavCompo = () => {
               </div>
             </div>
           </div>
-          <div className="w-100 d-flex gap-5 position-relative" style={{color: '#384A62', marginTop: '60px'}}>
+          <button className="menu-btn btn d-flex py-2 justify-content-center mt-3" style={{width: '80px', backgroundColor: 'white'}}>Menu</button>
+          <div className="q-print-con w-100 d-flex gap-5 position-relative" style={{color: '#384A62', marginTop: '60px'}}>
             <div className="q-print w-50">
                 <div className=" text-capitalize fw-bold" style={{fontSize: '4.2rem', fontFamily: '"dm serif display",serif'}}>quality prints</div>
                 <p className="ship fw-bold" style={{fontSize: '25px', color: '#708095'}}>Shipped to your doorstep</p>
