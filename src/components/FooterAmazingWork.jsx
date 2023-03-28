@@ -7,7 +7,7 @@ const FooterAmazingWork = () => {
       <section
         className="feedback"
         style={{
-          padding: "60px 110px 80px 110px",
+          padding: "80px 110px 80px 110px",
           backgroundColor: "#F7F6F4",
           marginTop: "70px",
         }}

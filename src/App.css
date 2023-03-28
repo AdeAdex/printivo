@@ -143,6 +143,23 @@ body {
   font-size: 50px;
 }
 
+.footer-a {
+  width: 20%;
+}
+
+.feedback .footer-a a {
+  color: white !important;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.footer-a div {
+  color: whitesmoke;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 
 
@@ -288,6 +305,10 @@ body {
 
 .notice .notice-div {
   width: 100%;
+}
+
+.feedback .footer-a a {
+  color: white !important;
 }
 
 }
