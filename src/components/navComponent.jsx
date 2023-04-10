@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/printivo.png";
 import logoCard from "../assets/Card.png";
+import whatsApp from "../assets/WhatsApp_icon.png.webp";
 
 const NavCompo = () => {
   return (
@@ -32,12 +33,13 @@ const NavCompo = () => {
               </a>
               <a href="tel:+23409014145628">+23409014145628</a>
             </div>
-            <i className="fab fa-whatsapp my-auto"></i>
+            {/* <i className="fab fa-whatsapp my-auto"></i> */}
+            <img src={whatsApp} alt="" style={{ width: "40px", cursor: 'pointer' }}/>
             <div className="country my-auto d-flex gap-1">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs2FIvEbniUcb67AEOLB8w_WXGX6Lme67jYJxNMSdj&s"
                 alt=""
-                style={{ width: "20px" }}
+                style={{ width: "20px", cursor: "pointer" }}
               />
               <span>Nigeria</span>
             </div>
