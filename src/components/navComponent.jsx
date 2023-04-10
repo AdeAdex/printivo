@@ -55,11 +55,12 @@ const NavCompo = () => {
           </div>
 
 
+          <div className="d-flex gap-2 mt-2">
           <div className="dropdown">
             <button
-            className="menu-btn btn d-flex py-2 justify-content-center mt-3" data-bs-toggle="dropdown"
+            className="menu-btn d-flex justify-content-center  fw-bold" data-bs-toggle="dropdown"
               aria-expanded="false"
-            style={{ width: "80px", backgroundColor: "white" }}
+            style={{ width: "85px", backgroundColor: "white", paddingTop: "12px", paddingBottom: "12px", borderRadius: '5px', border: 'none' }}
           >
             Menu
           </button>
@@ -239,10 +240,12 @@ const NavCompo = () => {
               </li>
             </ul>
           </div>
+          <input type="text" name="" id="" placeholder="Quick Search" className="sticky-search w-100 fw-bold px-3" style={{backgroundColor: "white", borderRadius: '5px', border: '1px solid gray'}} />
+          </div>
         </div>
 
 
-        
+
       <section className="nav d-flex flex-column">
         <div className="nav1 d-flex justify-content-around w-100">
           <div

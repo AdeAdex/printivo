@@ -256,10 +256,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #naroSticky {
-    padding: 0px 20px 30px 20px !important;
+    padding: 0px 20px 10px 20px !important;
     min-width: 100% !important;
     margin-left: 0px;
-    /* background-color: green; */
   }
 
   .nav-caro .img-container{
@@ -326,6 +325,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .search {
     padding: 20px !important;
+  }
+
+  .sticky-search::placeholder {
+    color: #B0B8C2;
   }
 
 
