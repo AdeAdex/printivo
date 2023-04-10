@@ -4,8 +4,245 @@ import logoCard from "../assets/Card.png";
 import whatsApp from "../assets/WhatsApp_icon.png.webp";
 
 const NavCompo = () => {
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 150 ||
+      document.documentElement.scrollTop > 150
+    ) {
+      naroSticky.style.setProperty("display", "block", "important");
+    } else if (document.body.scrollTop < 150 ||
+      document.documentElement.scrollTop < 150) {
+        naroSticky.style.setProperty("display", "none", "important");
+    } else {
+    }
+  }
+
   return (
     <>
+    <div
+          className="nav-caro-sticky d-flex flex-column w-100"
+          style={{ padding: "0px 100px 0px 100px" }} id="naroSticky"
+        >
+          <div
+            className="img-signin d-flex w-100 justify-content-evenly"
+            style={{ marginTop: "0px", height: "70px" }}
+          >
+            <div className="img-container my-auto" style={{ width: "45%" }}>
+              <img src={logo} alt="" style={{ width: "150px" }} />
+            </div>
+            <div className="menu d-flex gap-5" style={{ width: "60%" }}>
+              <div className="dropdowns d-flex my-auto">
+                <a href="">Home</a>
+                <a href="">All Products</a>
+                <a href="">Become a Reseller</a>
+                <a href="">Cost Calculator</a>
+              </div>
+              <div className="account d-flex my-auto">
+                <a href="" style={{ color: "#D87F81" }}>
+                  Sign in
+                </a>
+                <a href="" className="create-acc">
+                  Create Account
+                </a>
+                <i className="fas fa-cart-shopping fs-5"></i>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="dropdown">
+            <button
+            className="menu-btn btn d-flex py-2 justify-content-center mt-3" data-bs-toggle="dropdown"
+              aria-expanded="false"
+            style={{ width: "80px", backgroundColor: "white" }}
+          >
+            Menu
+          </button>
+            <ul className="dropdown-menu">
+            <div className="d-flex justify-content-end px-3 py-3  position-fixed top-0" style={{width: '90%'}}><i className="fas fa-times fs-2 text-black"></i></div>
+              <li className="mt-5">
+                <a className="dropdown-item" href="#">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Another action
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        
       <section className="nav d-flex flex-column">
         <div className="nav1 d-flex justify-content-around w-100">
           <div
@@ -33,7 +270,6 @@ const NavCompo = () => {
               </a>
               <a href="tel:+23409014145628">+23409014145628</a>
             </div>
-            {/* <i className="fab fa-whatsapp my-auto"></i> */}
             <img src={whatsApp} alt="" style={{ width: "40px", cursor: 'pointer' }}/>
             <div className="country my-auto d-flex gap-1">
               <img
