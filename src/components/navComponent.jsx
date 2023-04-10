@@ -270,7 +270,7 @@ const NavCompo = () => {
                 className=" text-capitalize fw-bold"
                 style={{
                   fontSize: "4.2rem",
-                  fontFamily: '"dm serif display",serif',
+                  fontFamily: '"dm serif display,serif',
                 }}
               >
                 quality prints

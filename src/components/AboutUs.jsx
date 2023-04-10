@@ -14,7 +14,7 @@ const AboutUs = () => {
           marginTop: "70px",
         }}
       >
-        <h3 className="fw-bold" style={{ color: "#384A62" }}>You can count on us for:</h3>
+        <h3 className="fw-bold about-h3" style={{ color: "#384A62" }}>You can count on us for:</h3>
         <div style={{ color: "#384A62" }} className="about-div d-flex w-100 gap-4 mt-4">
           <div
             className="each-about bg-white container-fluid py-3 d-flex gap-3"
