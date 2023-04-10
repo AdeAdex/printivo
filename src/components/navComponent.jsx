@@ -20,12 +20,17 @@ const NavCompo = () => {
         naroSticky.style.setProperty("display", "none", "important");
     } else {
     }
+  };
+
+  const tryClose = () => {
+    cls.style.setProperty("display", "none", "important");
+    cls.style.setProperty("height", "0px", "important");
   }
 
   return (
     <>
     <div
-          className="nav-caro-sticky d-flex flex-column w-100"
+          className="nav-caro-sticky d-flex flex-column w-100 shadow"
           style={{ padding: "0px 100px 0px 100px" }} id="naroSticky"
         >
           <div
@@ -65,7 +70,7 @@ const NavCompo = () => {
             Menu
           </button>
             <ul className="dropdown-menu">
-            <div className="d-flex justify-content-end px-3 py-3  position-fixed top-0" style={{width: '90%'}}><i className="fas fa-times fs-2 text-black"></i></div>
+            <div className="d-flex justify-content-end px-3 py-3  position-fixed top-0" style={{width: '90%'}}><i className="fas fa-times fs-2 text-black" style={{cursor: 'pointer'}} data-bs-dismiss="dropdown"></i></div>
               <li className="mt-5">
                 <a className="dropdown-item" href="#">
                   Home
@@ -240,7 +245,7 @@ const NavCompo = () => {
               </li>
             </ul>
           </div>
-          <input type="text" name="" id="" placeholder="Quick Search" className="sticky-search w-100 fw-bold px-3" style={{backgroundColor: "white", borderRadius: '5px', border: '1px solid gray'}} />
+          <input type="text" name="" id="" placeholder="Quick Search" className="sticky-search w-75 fw-bold px-3" style={{backgroundColor: "white", borderRadius: '5px', border: '1px solid gray'}} />
           </div>
         </div>
 
@@ -324,8 +329,8 @@ const NavCompo = () => {
             Menu
           </button>
             <ul className="dropdown-menu">
-            <div className="d-flex justify-content-end px-3 py-3  position-fixed top-0" style={{width: '90%'}}><i className="fas fa-times fs-2 text-black"></i></div>
-              <li className="mt-5">
+            <div className="d-flex justify-content-end px-3 py-3 " style={{width: '90%'}}><i className="fas fa-times fs-2 text-black " style={{cursor: 'pointer'}} data-bs-dismiss="dropdown"></i></div>
+              <li className="mt-2">
                 <a className="dropdown-item" href="#">
                   Home
                 </a>
