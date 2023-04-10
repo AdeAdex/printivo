@@ -184,6 +184,10 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
+#naroSticky .sticky-search {
+  display: none;
+}
+
 
 
 
@@ -329,6 +333,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .sticky-search::placeholder {
     color: #B0B8C2;
+  }
+
+  #naroSticky .sticky-search {
+    display: block !important;
   }
 
 
