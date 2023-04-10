@@ -314,9 +314,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100% !important;
 }
 
-.partner-img img {
-  width: 100%;
-}
+
 
 
 
@@ -347,15 +345,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-.notice {
-  flex-direction: column;
-  gap: 40px;
+.partner-img img {
+  width: 100%;
+  object-position: 0% 100%;
 }
 
-.notice .notice-div {
-  width: 100%;
+.notice {
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.partner-img .notice-div {
+  max-width: 50%;
 }
 
 .feedback .footer-a a {
