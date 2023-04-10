@@ -24,7 +24,9 @@ const PopularCardContainer = () => {
         </div>
         <div className="w-100 d-flex flex-wrap" style={{gap: '30px'}}>
           <div className="card" style={{ width: "23.2%" }}>
+          <div className="card-img-container">
             <img src="https://printivo.s3-us-west-2.amazonaws.com/files/category_thumbnails/1473159158_Christmas-card-for-this-wonderful-season.png" className="card-img-top" alt="" />
+            </div>
             <div className="card-body">
               <h5 className="card-title">Greeting Cards</h5>
               <p className="card-text">starting at</p>
@@ -33,7 +35,9 @@ const PopularCardContainer = () => {
             </div>
           </div>
           <div className="card" style={{ width: "23.2%" }}>
+          <div className="card-img-container">
             <img src="https://printivo.s3-us-west-2.amazonaws.com/files/category_thumbnails/1473165427_stickers.png" className="card-img-top" alt="" />
+            </div>
             <div className="card-body">
               <h5 className="card-title">Stickers</h5>
               <p className="card-text">starting at</p>
