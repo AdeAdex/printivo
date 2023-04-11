@@ -4,73 +4,87 @@ import logoCard from "../assets/Card.png";
 import whatsApp from "../assets/WhatsApp_icon.png.webp";
 
 const NavCompo = () => {
-
   window.onscroll = function () {
     scrollFunction();
   };
-  
+
   function scrollFunction() {
     if (
       document.body.scrollTop > 150 ||
       document.documentElement.scrollTop > 150
     ) {
       naroSticky.style.setProperty("display", "block", "important");
-    } else if (document.body.scrollTop < 150 ||
-      document.documentElement.scrollTop < 150) {
-        naroSticky.style.setProperty("display", "none", "important");
+      menuMenu.style.setProperty('top', '-260', 'important')
+    } else if (
+      document.body.scrollTop < 150 ||
+      document.documentElement.scrollTop < 150
+    ) {
+      naroSticky.style.setProperty("display", "none", "important");
     } else {
     }
-  };
-
-  const tryClose = () => {
-    cls.style.setProperty("display", "none", "important");
-    cls.style.setProperty("height", "0px", "important");
   }
 
   return (
     <>
-    <div
-          className="nav-caro-sticky d-flex flex-column w-100 shadow"
-          style={{ padding: "0px 100px 0px 100px" }} id="naroSticky"
+      <div
+        className="nav-caro-sticky d-flex flex-column w-100 shadow"
+        style={{ padding: "0px 100px 0px 100px" }}
+        id="naroSticky"
+      >
+        <div
+          className="img-signin d-flex w-100 justify-content-evenly"
+          style={{ marginTop: "0px", height: "70px" }}
         >
-          <div
-            className="img-signin d-flex w-100 justify-content-evenly"
-            style={{ marginTop: "0px", height: "70px" }}
-          >
-            <div className="img-container my-auto" style={{ width: "45%" }}>
-              <img src={logo} alt="" style={{ width: "150px" }} />
+          <div className="img-container my-auto" style={{ width: "45%" }}>
+            <img src={logo} alt="" style={{ width: "150px" }} />
+          </div>
+          <div className="menu d-flex gap-5" style={{ width: "60%" }}>
+            <div className="dropdowns d-flex my-auto">
+              <a href="">Home</a>
+              <a href="">All Products</a>
+              <a href="">Become a Reseller</a>
+              <a href="">Cost Calculator</a>
             </div>
-            <div className="menu d-flex gap-5" style={{ width: "60%" }}>
-              <div className="dropdowns d-flex my-auto">
-                <a href="">Home</a>
-                <a href="">All Products</a>
-                <a href="">Become a Reseller</a>
-                <a href="">Cost Calculator</a>
-              </div>
-              <div className="account d-flex my-auto">
-                <a href="" style={{ color: "#D87F81" }}>
-                  Sign in
-                </a>
-                <a href="" className="create-acc">
-                  Create Account
-                </a>
-                <i className="fas fa-cart-shopping fs-5"></i>
-              </div>
+            <div className="account d-flex my-auto">
+              <a href="" style={{ color: "#D87F81" }}>
+                Sign in
+              </a>
+              <a href="" className="create-acc">
+                Create Account
+              </a>
+              <i className="fas fa-cart-shopping fs-5"></i>
             </div>
           </div>
+        </div>
 
-
-          <div className="d-flex gap-2 mt-2">
+        <div className="d-flex gap-2 mt-2">
           <div className="dropdown">
             <button
-            className="menu-btn d-flex justify-content-center  fw-bold" data-bs-toggle="dropdown"
+              className="menu-btn d-flex justify-content-center  fw-bold"
+              data-bs-toggle="dropdown"
               aria-expanded="false"
-            style={{ width: "85px", backgroundColor: "white", paddingTop: "12px", paddingBottom: "12px", borderRadius: '5px', border: 'none' }}
-          >
-            Menu
-          </button>
+              style={{
+                width: "85px",
+                backgroundColor: "white",
+                paddingTop: "12px",
+                paddingBottom: "12px",
+                borderRadius: "5px",
+                border: "none",
+              }}
+            >
+              Menu
+            </button>
             <ul className="dropdown-menu">
-            <div className="d-flex justify-content-end px-3 py-3  position-fixed top-0" style={{width: '90%'}}><i className="fas fa-times fs-2 text-black" style={{cursor: 'pointer'}} data-bs-dismiss="dropdown"></i></div>
+              <div
+                className="d-flex justify-content-end px-3 py-3  position-fixed top-0"
+                style={{ width: "90%" }}
+              >
+                <i
+                  className="fas fa-times fs-2 text-black"
+                  style={{ cursor: "pointer" }}
+                  data-bs-dismiss="dropdown"
+                ></i>
+              </div>
               <li className="mt-5">
                 <a className="dropdown-item" href="#">
                   Home
@@ -245,11 +259,20 @@ const NavCompo = () => {
               </li>
             </ul>
           </div>
-          <input type="text" name="" id="" placeholder="Quick Search" className="sticky-search w-75 fw-bold px-3" style={{backgroundColor: "white", borderRadius: '5px', border: '1px solid gray'}} />
-          </div>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Quick Search"
+            className="sticky-search w-75 fw-bold px-3"
+            style={{
+              backgroundColor: "white",
+              borderRadius: "5px",
+              border: "1px solid gray",
+            }}
+          />
         </div>
-
-
+      </div>
 
       <section className="nav d-flex flex-column">
         <div className="nav1 d-flex justify-content-around w-100">
@@ -278,7 +301,11 @@ const NavCompo = () => {
               </a>
               <a href="tel:+23409014145628">+23409014145628</a>
             </div>
-            <img src={whatsApp} alt="" style={{ width: "40px", cursor: 'pointer' }}/>
+            <img
+              src={whatsApp}
+              alt=""
+              style={{ width: "40px", cursor: "pointer" }}
+            />
             <div className="country my-auto d-flex gap-1">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs2FIvEbniUcb67AEOLB8w_WXGX6Lme67jYJxNMSdj&s"
@@ -319,17 +346,26 @@ const NavCompo = () => {
             </div>
           </div>
 
-
           <div className="dropdown">
             <button
-            className="menu-btn btn d-flex py-2 justify-content-center mt-3" data-bs-toggle="dropdown"
+              className="menu-btn btn d-flex py-2 justify-content-center mt-3"
+              data-bs-toggle="dropdown"
               aria-expanded="false"
-            style={{ width: "80px", backgroundColor: "white" }}
-          >
-            Menu
-          </button>
-            <ul className="dropdown-menu">
-            <div className="d-flex justify-content-end px-3 py-3 " style={{width: '90%'}}><i className="fas fa-times fs-2 text-black " style={{cursor: 'pointer'}} data-bs-dismiss="dropdown"></i></div>
+              style={{ width: "80px", backgroundColor: "white" }}
+            >
+              Menu
+            </button>
+            <ul className="dropdown-menu"  id="menuMenu">
+              <div
+                className="d-flex justify-content-end px-4 py-3 "
+                style={{ width: "100%" }}
+              >
+                <i
+                  className="fas fa-times fs-2 text-black "
+                  style={{ cursor: "pointer" }}
+                  data-bs-dismiss="dropdown"
+                ></i>
+              </div>
               <li className="mt-2">
                 <a className="dropdown-item" href="#">
                   Home
@@ -462,7 +498,7 @@ const NavCompo = () => {
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                   presentation folders
+                  presentation folders
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
@@ -504,7 +540,7 @@ const NavCompo = () => {
               </li>
             </ul>
           </div>
-          
+
           <div
             className="q-print-con w-100 d-flex gap-5 position-relative"
             style={{ color: "#384A62", marginTop: "60px" }}

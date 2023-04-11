@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .dropdown-menu li {
     display: flex;
-    width: 86%;
+    width: 95%;
   }
 
   li .fa-angle-right {
@@ -248,13 +248,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .nav-caro .dropdown-menu {
-    position: fixed !important;
+    position: absolute !important;
     width: 110% !important;
     height: 100vh;
     top: -208px !important;
     left: 0px !important;
     right: 0px !important;
-    overflow-y: auto;
+    overflow-y: scroll;
     animation-name: drop;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -264,10 +264,6 @@ h1, h2, h3, h4, h5, h6 {
     visibility: visible;
   }
 
-
-  #naroSticky .dropdown {
-    overflow: hidden;
-  }
 
   #naroSticky .dropdown-menu {
     position: fixed !important;
@@ -299,6 +295,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 20px 10px 20px !important;
     min-width: 100% !important;
     margin-left: 0px;
+    margin-top: 0 !important;
+    z-index: 1;
   }
 
   .nav-caro .img-container{
