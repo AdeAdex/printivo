@@ -60,7 +60,7 @@ const NavCompo = () => {
         <div className="d-flex gap-2 mt-2 w-100">
           <div className="dropdown">
             <button
-              className="menu-btn d-flex justify-content-center  fw-bold"
+              className="menu-btn d-flex justify-content-center fw-bold"
               data-bs-toggle="dropdown"
               aria-expanded="false"
               style={{
@@ -74,7 +74,7 @@ const NavCompo = () => {
             >
               Menu
             </button>
-            <ul className="dropdown-menu">
+            <ul className="dropdown-menu position-absolute">
               <div
                 className="d-flex justify-content-end px-4 py-3"
                 style={{ width: "100%" }}
@@ -264,7 +264,7 @@ const NavCompo = () => {
             name=""
             id=""
             placeholder="Quick Search"
-            className="sticky-search  fw-bold px-3"
+            className="sticky-search fw-bold px-3 w-75"
             style={{
               backgroundColor: "white",
               borderRadius: "5px",
@@ -348,10 +348,10 @@ const NavCompo = () => {
 
           <div className="dropdown">
             <button
-              className="menu-btn btn d-flex py-2 justify-content-center mt-3"
+              className="menu-btn btn d-flex py-2 justify-content-center mt-3 fw-bold"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-              style={{ width: "80px", backgroundColor: "white" }}
+              style={{ width: "80px", backgroundColor: "white", color: '#384A62' }}
             >
               Menu
             </button>
