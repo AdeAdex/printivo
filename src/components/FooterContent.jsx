@@ -1,4 +1,6 @@
 import React from "react";
+import payment from "../assets/payment.png";
+import shipping from "../assets/shipping.png";
 
 const FooterContent = () => {
   return (
@@ -44,15 +46,17 @@ const FooterContent = () => {
           </div>
           <div>Accepted Payments</div>
           <div className="d-flex">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+            <img
+              src={payment}
+              style={{ objectFit: "contain", width: "180px" }}
+              alt=""
+            />
           </div>
           <div>Delivery</div>
           <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
+            <img src={shipping}
+              style={{ objectFit: "contain", width: "150px" }}
+              alt="" />
           </div>
         </div>
       </section>
