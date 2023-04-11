@@ -337,168 +337,168 @@ const NavCompo = () => {
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Another action
+                  all Products
                 </a>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
-                </a>
-                <i className="fas fa-angle-right my-auto"></i>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Something else here
+                  bags
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  banners & large format
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  brochures
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  business cards
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  calendars
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  campaign materials
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  caps & hats
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  clothesTags
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  clothing & apparel
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  corporate gifts
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  envelopes
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  flyers & handbills
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  frames & wall arts
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  greeting card
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  ID cards
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  labels
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  letterhead
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  mugs
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  notepads and jotters
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  posters
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                   presentation folders
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  promotional items
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  stickers
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  umbrella
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  wedding stationery
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Something else here
+                  become a reseller
+                </a>
+                <i className="fas fa-angle-right my-auto"></i>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  cost calculator
                 </a>
                 <i className="fas fa-angle-right my-auto"></i>
               </li>

@@ -188,8 +188,8 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-.nav-caro .dropdown-men {
-  display: none;
+.nav-caro .dropdown-menu {
+  visibility: hidden;
 }
 
 
@@ -230,11 +230,12 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   }
 
-  .nav-caro .dropdown-item {
+  .nav-caro .dropdown-item, #naroSticky .dropdown-item {
     font-weight: bold;
     margin: 10px 0px;
-    font-size: 20px !important;
+    font-size: 15px !important;
     color: #384F66;
+    text-transform: capitalize;
   }
 
   .dropdown-menu li {
@@ -260,6 +261,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     z-index: 15;
+    visibility: visible;
   }
 
 
