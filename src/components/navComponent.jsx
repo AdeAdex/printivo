@@ -57,7 +57,7 @@ const NavCompo = () => {
           </div>
         </div>
 
-        <div className="d-flex gap-2 mt-2">
+        <div className="d-flex gap-2 mt-2 w-100">
           <div className="dropdown">
             <button
               className="menu-btn d-flex justify-content-center  fw-bold"
@@ -76,8 +76,8 @@ const NavCompo = () => {
             </button>
             <ul className="dropdown-menu">
               <div
-                className="d-flex justify-content-end px-3 py-3  position-fixed top-0"
-                style={{ width: "90%" }}
+                className="d-flex justify-content-end px-4 py-3"
+                style={{ width: "100%" }}
               >
                 <i
                   className="fas fa-times fs-2 text-black"
@@ -264,7 +264,7 @@ const NavCompo = () => {
             name=""
             id=""
             placeholder="Quick Search"
-            className="sticky-search w-75 fw-bold px-3"
+            className="sticky-search  fw-bold px-3"
             style={{
               backgroundColor: "white",
               borderRadius: "5px",

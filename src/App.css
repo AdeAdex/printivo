@@ -71,10 +71,6 @@ body {
   display: none !important;
 }
 
-.search {
-  /* background-image: ; */
-}
-
 .search:focus {
   outline: none;
 }
@@ -85,7 +81,6 @@ body {
   bottom: -60px;
   right: -100px;
   position: absolute;
-  /* margin-right: -100px; */
 }
 
 .card-img-top {
@@ -184,11 +179,11 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
-#naroSticky .sticky-search, #naroSticky .dropdown-men{
+#naroSticky .sticky-search{
   display: none;
 }
 
-.nav-caro .dropdown-menu {
+.nav-caro .dropdown-menu,  #naroSticky .dropdown-menu {
   visibility: hidden;
 }
 
@@ -266,19 +261,20 @@ h1, h2, h3, h4, h5, h6 {
 
 
   #naroSticky .dropdown-menu {
-    position: fixed !important;
+    position: absolute !important;
     width: 100% !important;
     height: 100vh;
-    top: -425px !important;
+    top: -130px !important;
     left: 0px !important;
     right: 0px !important;
-    overflow-y: auto;
+    overflow-y: scroll;
     animation-name: drop;
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     z-index: 15;
+    visibility: visible;
   }
 
   @keyframes drop {
