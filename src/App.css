@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 
   #naroSticky .dropdown-menu {
     position: absolute !important;
-    min-width: 550% !important;
+    min-width: 500% !important;
     height: 100vh;
     top: -130px !important;
     left: 0px !important;
