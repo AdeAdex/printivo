@@ -20,6 +20,8 @@ import {
 import CardContainerH3 from "./components/CardContainerH3";
 
 function App() {
+  let txt1 = "I am now the unofficial"
+  let txt2 = <span>hi</span>
   return (
     <>
       <Router>
@@ -167,20 +169,17 @@ function App() {
         <Feedback
           userFeedbackName="Adeolu Adex"
           feedbackUsername="@AdeAdex_"
-          txt1="I am now the unofficial"
-          printivo="@Printivo"
+         feedbackContent={(<><span>I am now the unofficial </span><span style={{color: '#1DA1F2'}}>@Printivo</span><span> ambassador. What these guys just pulled to ensure I got my menu cards today is stunning!</span></>)}
         ></Feedback>
         <Feedback
           userFeedbackName="Grace Grace"
           feedbackUsername="@Grace24"
-          txt1="@Printivo"
-          printivo=""
+          feedbackContent={(<><span style={{color: '#1DA1F2'}}>@Printivo</span> <span>delivered my mugs in 24hrs. Thank you so much! It's nice doing business with you. More to come. </span></>)}
         ></Feedback>
         <Feedback
           userFeedbackName="Adeolu Adex"
           feedbackUsername="@AdeAdex_"
-          txt1="I am now the unofficial"
-          printivo="@Printivo"
+          feedbackContent={(<><span>These guys </span><span style={{color: '#1DA1F2'}}>@Printivo</span><span> are really awesome and affordable. Excellent customer service and delivery too. Thank you.</span></>)}
         ></Feedback>
         </div>
         </section>
