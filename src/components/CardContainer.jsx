@@ -1,5 +1,4 @@
 import React from "react";
-import logoCard from "../assets/Card.png";
 
 function CardContainer(props) {
   return (

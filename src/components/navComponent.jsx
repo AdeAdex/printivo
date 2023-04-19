@@ -1,7 +1,4 @@
 import React from "react";
-import logo from "../assets/printivo.png";
-import logoCard from "../assets/Card.png";
-import whatsApp from "../assets/WhatsApp_icon.png.webp";
 
 const NavCompo = () => {
   window.onscroll = function () {
@@ -36,7 +33,7 @@ const NavCompo = () => {
           style={{ marginTop: "0px", height: "70px" }}
         >
           <div className="img-container my-auto" style={{ width: "45%" }}>
-            <img src={logo} alt="" style={{ width: "150px" }} />
+            <img src="pic/printivo.png" alt="" style={{ width: "150px" }} />
           </div>
           <div className="menu d-flex gap-5" style={{ width: "60%" }}>
             <div className="dropdowns d-flex my-auto">
@@ -302,7 +299,7 @@ const NavCompo = () => {
               <a href="tel:+23409014145628">+23409014145628</a>
             </div>
             <img
-              src={whatsApp}
+              src="pic/WhatsApp_icon.png.webp"
               alt=""
               style={{ width: "40px", cursor: "pointer" }}
             />
@@ -325,7 +322,7 @@ const NavCompo = () => {
             style={{ marginTop: "20px", height: "70px" }}
           >
             <div className="img-container my-auto" style={{ width: "45%" }}>
-              <img src={logo} alt="" style={{ width: "150px" }} />
+              <img src="pic/printivo.png" alt="" style={{ width: "150px" }} />
             </div>
             <div className="menu d-flex gap-5" style={{ width: "60%" }}>
               <div className="dropdowns d-flex my-auto">
@@ -576,7 +573,7 @@ const NavCompo = () => {
             <div className="nav-card-container w-50">
               <img
                 className="card-img"
-                src={logoCard}
+                src="pic/Card.png"
                 alt=""
                 style={{ width: "450px", height: "300px" }}
               />

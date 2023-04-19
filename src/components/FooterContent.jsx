@@ -1,6 +1,4 @@
 import React from "react";
-import payment from "../assets/payment.png";
-import shipping from "../assets/shipping.png";
 
 const FooterContent = () => {
   return (
@@ -47,14 +45,14 @@ const FooterContent = () => {
           <div>Accepted Payments</div>
           <div className="d-flex">
             <img
-              src={payment}
+              src="pic/payment.png"
               style={{ objectFit: "contain", width: "180px" }}
               alt=""
             />
           </div>
           <div>Delivery</div>
           <div>
-            <img src={shipping}
+            <img src="pic/shipping"
               style={{ objectFit: "contain", width: "150px" }}
               alt="" />
           </div>

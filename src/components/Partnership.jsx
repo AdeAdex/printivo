@@ -1,5 +1,4 @@
 import React from "react";
-import partnerImg from "../assets/partner.png";
 
 const Partnership = () => {
   return (
@@ -16,7 +15,7 @@ const Partnership = () => {
           </h5>
         </div>
         <div className="partner-img w-100 mt-5">
-                <img src={partnerImg} alt="" />
+                <img src="pic/partner.png" alt="" />
         </div>
       </section>
     </>

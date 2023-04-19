@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import NavCompo from "./components/navComponent";
@@ -174,8 +173,8 @@ function App() {
         <Feedback
           userFeedbackName="Grace Grace"
           feedbackUsername="@Grace24"
-          txt1="I am now the unofficial"
-          printivo="@Printivo"
+          txt1="@Printivo"
+          printivo=""
         ></Feedback>
         <Feedback
           userFeedbackName="Adeolu Adex"
@@ -185,7 +184,23 @@ function App() {
         ></Feedback>
         </div>
         </section>
-        <AboutUs />
+        
+        <section
+      className="about-us"
+        style={{
+          padding: "40px 110px",
+          backgroundColor: "#fff",
+          marginTop: "70px",
+        }}
+      >
+        <h3 className="fw-bold about-h3" style={{ color: "#384A62" }}>You can count on us for:</h3>
+        <div style={{ color: "#384A62" }} className="about-div d-flex w-100 gap-4 mt-4">
+        <AboutUs img="pic/count1.svg" title="Fast Turnaround Within Days" description="Your order gets to you within 3-7
+              working days via DHL or our very own Printivo Direct."></AboutUs>
+        <AboutUs img="pic/count2.svg" title="100% Top Quality" description=" Only the finest materials, machines and people will be involved in fulfilling your order."></AboutUs>
+        <AboutUs img="pic/count3.svg" title="Affordable Services" description="All products are adequately priced to ensure you get value for your money at all times."></AboutUs>
+        </div>
+        </section>
         <Footer />
       </Router>
     </>
