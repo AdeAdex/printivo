@@ -16,5 +16,5 @@ To set up the development environment and work on this project, follow these ste
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/printivo-landing-replica.git
+   git clone https://github.com/Adex2210/printivo.git
 
