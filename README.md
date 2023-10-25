@@ -1,9 +1,20 @@
-# printivo
-This happened to be my first React + Vite project. In this project, I developed the Printivo.com landing page.
-The improvement to this page i developed compared to when am using Vanilla javascript are listed below.
+# printivo Landing Page Replica
 
-(a) Instant Server Start. 
-(b) Lightning Fast Hot Module Reloading (HMR).  
-(c) Universal Plugin Interface. 
-(d) Creation of user interfaces from components.  
-(e) Implementation of props etc.
+
+## Tech Stack
+
+This project is built using [Vite](https://vitejs.dev/), a build tool that is optimized for React development. Vite provides an extremely fast development environment and efficient production builds.
+
+### Additional Libraries and Dependencies
+
+- React: The JavaScript library for building user interfaces.
+- Other dependencies: List any additional libraries or dependencies you've used in your project.
+
+## Development Setup
+
+To set up the development environment and work on this project, follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/printivo-landing-replica.git
+
