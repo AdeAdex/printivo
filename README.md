@@ -1,4 +1,4 @@
-# printivo Landing Page Replica
+# Printivo Landing Page Replica
 
 
 ## Tech Stack
