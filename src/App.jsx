@@ -20,8 +20,7 @@ import {
 import CardContainerH3 from "./components/CardContainerH3";
 
 function App() {
-  let txt1 = "I am now the unofficial"
-  let txt2 = <span>hi</span>
+  
   return (
     <>
       <Router>
